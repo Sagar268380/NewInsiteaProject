@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relative4"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    tools:context=".HomeActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FF9E80"
+        android:elevation="2dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent">
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_below="@+id/toolbar"
+        android:text="Location"
+        ></TextView>
+
+   <ImageView
+       android:id="@+id/flight"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="20dp"
+       android:layout_below="@+id/txtLocation"
+       android:src="@drawable/ic_flight_black_24dp"
+       ></ImageView>
+
+    <TextView
+        android:id="@+id/txtFlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="flight"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/flight"
+
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/flight"
+        android:layout_below="@+id/txtLocation"
+        android:src="@drawable/ic_directions_bus_black_24dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/txtbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#000"
+        android:text="Bus"
+        android:layout_toRightOf="@+id/txtFlight"
+
+        android:layout_below="@+id/bus"
+
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="65dp"
+        android:layout_toRightOf="@+id/bus"
+        android:layout_below="@+id/txtLocation"
+        android:src="@drawable/ic_home"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/txthome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#000"
+        android:text="Home"
+        android:layout_marginLeft="65dp"
+        android:layout_toRightOf="@+id/txtbus"
+
+        android:layout_below="@+id/bus"
+
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/home"
+        android:layout_below="@+id/txtLocation"
+        android:src="@drawable/ic_hotel_black_24dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/txthotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#000"
+        android:layout_alignParentEnd="true"
+        android:text="Hotel"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/txthome"
+        android:layout_below="@+id/bus"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/visa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtFlight"
+        android:src="@drawable/ic_credit_card_black_24dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/txtvisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#000"
+        android:text="Visa"
+        android:layout_below="@+id/visa"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/cab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/visa"
+        android:layout_below="@+id/txtFlight"
+        android:src="@drawable/ic_directions_car_black_24dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/txtcab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#000"
+        android:layout_toRightOf="@+id/txtvisa"
+        android:layout_marginLeft="62dp"
+        android:text="Home"
+        android:layout_below="@+id/visa"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/cab"
+        android:layout_below="@+id/txthome"
+        android:src="@drawable/ic_directions_run_black_24dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/txtactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#000"
+        android:layout_toRightOf="@+id/txtcab"
+        android:layout_marginLeft="62dp"
+        android:text="Activity"
+        android:layout_below="@+id/cab"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/packeges"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Holiday Packages"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:layout_below="@+id/txtactivity"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/packeges"
+       android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/recycleView"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/offer"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Offer and Coupns"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:layout_below="@+id/recycleView"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+ <androidx.viewpager2.widget.ViewPager2
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:paddingStart="80dp"
+     android:paddingEnd="80dp"
+     android:layout_below="@+id/offer"
+     android:id="@+id/viewPagerImageSlider"></androidx.viewpager2.widget.ViewPager2>
+
+ <TextView
+        android:id="@+id/hotelcard"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Hotels"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:layout_below="@+id/viewPagerImageSlider"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotelcard"
+        android:id="@+id/recycleViewHome1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
+  </ScrollView>

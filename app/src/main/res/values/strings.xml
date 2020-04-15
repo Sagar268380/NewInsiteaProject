@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewInsiteaProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Munnar">Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.
+</string>
+
+    <string name="one">Rajamalai (Eravikulam) National Park</string>
+    <string name="two">Tea Gardens</string>
+    <string name="three">Kolukkumalai Tea Estate</string>
+
+
+</resources>

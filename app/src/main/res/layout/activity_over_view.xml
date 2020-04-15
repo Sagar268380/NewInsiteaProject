@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OverView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/textOver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="normal"
+            android:text="Victoria Falls is the only waterfall in the world with a length of more than a kilometer and a height of more than hundred meters. It is also considered to be the largest fall in the world. The noise of Victoria Falls can be heard from a distance of 40 kilometers, while the spray and mist from the falling water is rising to a height of over 400 meters and can be seen from a distance of 50 kilometers. No wonder that the local tribes used to call the waterfall Mosi-o-Tunya “The smoke that thunders”."></TextView>
+
+        <Button
+            android:id="@+id/btnForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textOver"
+            android:background="@drawable/bg1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="55dp"
+            android:text="You can send your enquiry via form"></Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>

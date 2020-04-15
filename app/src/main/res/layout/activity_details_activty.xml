@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivty">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+           android:id="@+id/placeNameDt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="PlaceName"></TextView>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_below="@+id/placeNameDt"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="280dp"
+            android:src="@drawable/image1">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="The holy city amritsar, also known for the golden temple to worship for many sikhs as well as other religion peoplearound the world.They also visits there. Basically it is famous for the golden temple majorly. But there are some more things to do while visiting amritsar . Here are some recommendations for you all"></TextView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:text="More"
+            android:background="@drawable/bg1"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnMore"></Button>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
